@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 30rem;
+  width: 30rem;
+  border-radius: 20px;
+  box-shadow: 0px 6px 6px 0px #d9d9d9, 0px -6px 6px 0px #d9d9d9;
+}
+.header {
+  text-shadow: 5px 3px 6px gray;
+  color: #2b2bf5;
+}
+
+.headerResult {
+  height: auto;
+  width: 80%;
+  box-shadow: 0px 6px 6px 0px #d9d9d9, 0px -6px 6px 0px #d9d9d9;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.firstInput {
+  margin-top: 40px;
+  padding: 20px;
+  width: 70%;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 6px 6px 0px #d9d9d9, 0px -6px 6px 0px #d9d9d9;
+}
+
+.secondInput {
+  margin-top: 20px;
+  padding: 20px;
+  width: 70%;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 6px 6px 0px #d9d9d9, 0px -6px 6px 0px #d9d9d9;
+}
+
+.firstInput:focus {
+  border: 2px solid #2b2bf5;
+}
+
+.secondInput:focus {
+  border: 2px solid #2b2bf5;
+}
+button {
+  padding: 12px;
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 15px;
+  border: 1px solid #2b2bf5;
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 0px 6px 6px 0px #d9d9d9, 0px -6px 6px 0px #d9d9d9;
+  color: #2b2bf5;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2b2bf5;
+  color: white;
+}
+
+.highlight {
+  color: #ffff00;
+  text-transform: uppercase;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Highlight</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Word Highlight</h1>
+      <h1 id="headerResult" class="headerResult"></h1>
+      <input
+        type="text"
+        max="99"
+        id="text1"
+        class="firstInput"
+        placeholder="Write your sentence here"
+      /><br />
+      <input
+        type="text"
+        id="text2"
+        class="secondInput"
+        placeholder="Write the word to be highlighted"
+      /><br />
+      <button onclick="myApp()">Highlight</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

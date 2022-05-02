@@ -17,3 +17,11 @@ function myApp() {
     alert("Cannot highlight word in the sentence");
   }
 }
+
+//The onkeyup attribute functionality
+function myChange() {
+  var inputChange = document.querySelector(".firstInput").value;
+  var headerEvent = document.getElementById("headerResult");
+
+  headerEvent.innerHTML = inputChange;
+}
